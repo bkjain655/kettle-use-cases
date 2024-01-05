@@ -1,0 +1,11 @@
+Flask
+flask-restful
+gunicorn # For production deployment
+python-dotenv # To manage environment variables
+psycopg2 # PostgreSQL database driver (if using a Postgres DB)
+sqlalchemy # ORM library for interacting with the database
+pytest # Testing framework
+coverage # Code coverage tool
+flake8 # Linter and code quality checker
+black # Automatic formatting of Python code
+isort # Sort imports automatically

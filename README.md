@@ -1,1 +1,21 @@
-# kettle-use-cases
+ # Create a Hello World REST Application in Flask
+
+This repository contains the source code for a simple "Hello World" REST API built using [Flask](https://flask.palletsprojects.com/), a popular Python web framework. The application is designed to respond with a basic greeting message when receiving an HTTP request. To run and test it, follow these steps:
+
+1. Install dependencies by running `pip install -r requirements.txt` in the project root directory.
+2. Build Docker image using the provided [Dockerfile](./Dockerfile). Run `docker build . -t hello-world-flask`.
+3. Start a container with your application: `docker run --rm -p 5000:80 hello-world-flask` (replace port if needed). This will expose the API on http://localhost:5000/.
+4. Test the REST endpoint by sending an HTTP GET request to `http://localhost:5000/hello`. You should receive a response with "Hello World!" as its content.
+
+For more information about Flask and this project, refer to [the documentation](./docs). Feel free to explore the codebase and contribute improvements or new features!
+
+---
+
+# Create A Hello World Rest Application In Flask.
+This artifact is created by [Kettle](kettle.gnyan.ai) Promptware Development Hub.
+- Date: `2024-01-05 15:18:53`
+- Model: `neural-chat:latest`
+- File Prompt: <pre>You are an EXPERT developer who will design, structure, and write great software application code.<br>Given a brief description of a story, you will first create a file structure of the necessary files and folders.<br>For example, a python hello world program will require main.py, requirements.txt, Dockerfile, readme.md, docker\_run.sh files: your response will therefore be --<br>\`\`\`files<br>\[\("main.py", "", "file"\), <br>\("requirements.txt", "", "file"\), <br>\("docs", "", "dir"\), <br>\("readme.md", "docs", "file"\), <br>\("Dockerfile", "", "file"\), <br>\("build", "", "dir"\), <br>\("docker\_build.sh", "build", "file"\), <br>\("docker\_run.sh", "build", "file"\)\]<br>\`\`\`<br>Take a deep breath and reason step-by-step. Please be exhaustive in the files you create. <br>You will NOT need \`requirements.txt\` for non Python application, in such instances, feel free to deviate from requirements archetype. Choose appropriate dependency file for the programming language: for example, in Perl, you will create cpanfile instead of requirements.txt.<br>You will present a single manifest of files: You are NOT allowed to split subfolder listings in your response.<br>For example, \`\`\`<br>Inside the 'build/src' directory: \[\("main.py", "", "file"\), \("utils.py", "", "file"\), \(".gitignore", "", "file"\)\]\`\`\` is prohibited.<br>\`\`\`files \[\("build", "", "dir"\), \("src", "build", "dir"\), \("main.py", "build/src", "file"\), \("utils.py", "build/src", "file"\), \(".gitignore", "build/src", "file"\)\]\`\`\` is allowed.<br>Each tuple in the response will be a triple of \(filename, directory path, type\). Filename MUST be a filename ONLY, not a path. directory path MUST be a path ONLY, not a filename.<br><br>You are NOT allowed to offer multiple options like sbt or gradlew or maven archetypes. Choose ONE best option.<br>You want to be very diligent in the directory structure. Your response MUST be in the form of a single list of tuples. Each tuple is a \(file|directory name, its base directory path, and its type \{\{\{\{file|dir\}\}\}\}\). <br>Make the directory path relative to the top level directory. You ARE NOT ALLOWED to create directories outside of the top level directory.<br>ALWAYS quote filenames and directories that have whitespaces. Surround the response in \`\`\` backticks at the start and end<br>Description: '''\{\{question\}\}'''<br>Response: <br>\`\`\`files<br></pre>
+- README Prompt: <pre>You are an EXPERT developer who will design, structure, and write great software application code. <br>Given a brief description of a story and a file layout, you will author a readme.md file. <br>You will respond with the contents of the readme.md file ONLY. Respond in markdown format and surround the response in \`\`\` backticks at the start and end. Please be VERY brief and ONLY respond in markdown format to the question.<br>Deliberate the desscription and add some interpreted markdown to the readme.md file.<br>Description: '''\{\{question\}\}'''<br>File Layout: '''\{\{file\_layout\}\}'''<br>\`\`\`readme.md<br></pre>
+- Artifact: `artifacts/319D52DD056FC30AE3A4176413C16A52`
+---
