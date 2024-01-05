@@ -1,0 +1,234 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-124.06, 37.85]
+      },
+      "properties": {
+        "state_name": "Alaska",
+        "rentals": 1000,
+        "reservations": 900,
+        "returns": 800,
+        "total_events": 2700,
+        "date": "2023-04-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.56, 37.06]
+      },
+      "properties": {
+        "state_name": "Texas",
+        "rentals": 2000,
+        "reservations": 1400,
+        "returns": 1900,
+        "total_events": 5300,
+        "date": "2023-06-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.47, 35.06]
+      },
+      "properties": {
+        "state_name": "Tennessee",
+        "rentals": 1200,
+        "reservations": 1000,
+        "returns": 900,
+        "total_events": 3100,
+        "date": "2023-07-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.56, 40.06]
+      },
+      "properties": {
+        "state_name": "New Mexico",
+        "rentals": 1300,
+        "reservations": 700,
+        "returns": 600,
+        "total_events": 2600,
+        "date": "2023-08-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.54, 36.06]
+      },
+      "properties": {
+        "state_name": "Oklahoma",
+        "rentals": 1800,
+        "reservations": 1200,
+        "returns": 1100,
+        "total_events": 4100,
+        "date": "2023-09-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.65, 41.89]
+      },
+      "properties": {
+        "state_name": "Illinois",
+        "rentals": 2000,
+        "reservations": 1300,
+        "returns": 1200,
+        "total_events": 4500,
+        "date": "2023-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.69, 41.5]
+      },
+      "properties": {
+        "state_name": "Wisconsin",
+        "rentals": 2000,
+        "reservations": 1300,
+        "returns": 1200,
+        "total_events": 4500,
+        "date": "2023-11-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.69, 41.5]
+      },
+      "properties": {
+        "state_name": "Wisconsin",
+        "rentals": 2000,
+        "reservations": 1300,
+        "returns": 1200,
+        "total_events": 4500,
+        "date": "2023-12-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.69, 41.5]
+      },
+      "properties": {
+        "state_name": "Wisconsin",
+        "rentals": 2000,
+        "reservations": 1300,
+        "returns": 1200,
+        "total_events": 4500,
+        "date": "2024-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.69, 41.5]
+      },
+      "properties": {
+        "state_name": "Wisconsin",
+        "rentals": 2000,
+        "reservations": 1300,
+        "returns": 1200,
+        "total_events": 4500,
+        "date": "2024-02-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.69, 41.5]
+      },
+      "properties": {
+        "state_name": "Wisconsin",
+        "rentals": 2000,
+        "reservations": 1300,
+        "returns": 1200,
+        "total_events": 4500,
+        "date": "2024-03-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.69, 41.5]
+      },
+      "properties": {
+        "state_name": "Wisconsin",
+        "rentals": 2000,
+        "reservations": 1300,
+        "returns": 1200,
+        "total_events": 4500,
+        "date": "2024-04-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.69, 41.5]
+      },
+      "properties": {
+        "state_name": "Wisconsin",
+        "rentals": 2000,
+        "reservations": 1300,
+        "returns": 1200,
+        "total_events": 4500,
+        "date": "2024-05-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.69, 41.5]
+      },
+      "properties": {
+        "state_name": "Wisconsin",
+        "rentals": 2000,
+        "reservations": 1300,
+        "returns": 1200,
+        "total_events": 4500,
+        "date": "2024-06-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.69, 41.5]
+      },
+      "properties": {
+        "state_name": "Wisconsin",
+        "rentals": 2000,
+        "reservations": 1300,
+        "returns": 1200,
+        "total_events": 4500,
+        "date": "2024-07-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.69, 41.5]
+  ...

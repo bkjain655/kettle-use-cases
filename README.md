@@ -1,1 +1,24 @@
-# kettle-use-cases
+ Title: US Rental Car Data Visualization App
+
+This project aims to create a streamlit application that visualizes rental car data in the United States. It will display geo-folium heatmaps of rentals, reservations, and returns by state using Folium library for interactive maps. The app also includes date filters (start/end time ranges) presented via sidebar.
+
+To run this project locally:
+1. Clone or download the repository to your local machine.
+2. Navigate into the directory containing `Dockerfile`, `requirements.txt`, and other files.
+3. Build a Docker image using the provided `Dockerfile` with `docker build -t rental-car-visualizer .`.
+4. Run the container by executing `docker run --rm -itp 8501:8501 -v $(PWD):/app -w /app rental-car-visualizer bash` to mount your local directory and expose port 8501 for accessing the app.
+5. Open a web browser, navigate to `http://localhost:8501`, and interact with the application using the sidebar filters.
+6. To stop the container, press Ctrl+C in the terminal window running the Docker command.
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on this repository's GitHub page.
+
+---
+
+# Create A Streamlit Application That Shows A Geo Folium Heatmap Of A Rental Car Companies In The Us That Shows Rentals, Reservations, And Returns In The Us Broken Down By The State. The State And Date Filters (Start And End Time Ranges) Are To Be Presented In The Sidebar. Use Docker To Ship This Application.
+This artifact is created by [Kopilot](kettle.gnyan.ai) Promptware Development Hub.
+- Date: `2024-01-05 17:03:02`
+- Model: `neural-chat:latest`
+- File Prompt: <pre>You are an EXPERT developer who will design, structure, and write great software application code.<br>Given a brief description of a story, you will first create a file structure of the necessary files and folders.<br>For example, a python hello world program will require main.py, requirements.txt, Dockerfile, readme.md, docker\_run.sh files: your response will therefore be --<br>\`\`\`files<br>\[\("main.py", "", "file"\), <br>\("requirements.txt", "", "file"\), <br>\("docs", "", "dir"\), <br>\("readme.md", "docs", "file"\), <br>\("Dockerfile", "", "file"\), <br>\("build", "", "dir"\), <br>\("docker\_build.sh", "build", "file"\), <br>\("docker\_run.sh", "build", "file"\)\]<br>\`\`\`<br>Take a deep breath and reason step-by-step. Please be exhaustive in the files you create. <br>You will NOT need \`requirements.txt\` for non Python application, in such instances, feel free to deviate from requirements archetype. Choose appropriate dependency file for the programming language: for example, in Perl, you will create cpanfile instead of requirements.txt.<br>You will present a single manifest of files: You are NOT allowed to split subfolder listings in your response.<br>For example, \`\`\`<br>Inside the 'build/src' directory: \[\("main.py", "", "file"\), \("utils.py", "", "file"\), \(".gitignore", "", "file"\)\]\`\`\` is prohibited.<br>\`\`\`files \[\("build", "", "dir"\), \("src", "build", "dir"\), \("main.py", "build/src", "file"\), \("utils.py", "build/src", "file"\), \(".gitignore", "build/src", "file"\)\]\`\`\` is allowed.<br>Each tuple in the response will be a triple of \(filename, directory path, type\). Filename MUST be a filename ONLY, not a path. directory path MUST be a path ONLY, not a filename.<br><br>You are NOT allowed to offer multiple options like sbt or gradlew or maven archetypes. Choose ONE best option.<br>You want to be very diligent in the directory structure. Your response MUST be in the form of a single list of tuples. Each tuple is a \(file|directory name, its base directory path, and its type \{\{\{\{file|dir\}\}\}\}\). <br>Make the directory path relative to the top level directory. You ARE NOT ALLOWED to create directories outside of the top level directory.<br>ALWAYS quote filenames and directories that have whitespaces. Surround the response in \`\`\` backticks at the start and end<br>Description: '''\{\{question\}\}'''<br>Response: <br>\`\`\`files<br></pre>
+- README Prompt: <pre>You are an EXPERT developer who will design, structure, and write great software application code. <br>Given a brief description of a story and a file layout, you will author a readme.md file. <br>You will respond with the contents of the readme.md file ONLY. Respond in markdown format and surround the response in \`\`\` backticks at the start and end. Please be VERY brief and ONLY respond in markdown format to the question.<br>Deliberate the desscription and add some interpreted markdown to the readme.md file.<br>Description: '''\{\{question\}\}'''<br>File Layout: '''\{\{file\_layout\}\}'''<br>\`\`\`readme.md<br></pre>
+- Artifact: `artifacts/A4E2FAEDE71002D8C281816D22A5D454`
+---

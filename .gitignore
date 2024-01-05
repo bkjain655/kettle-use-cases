@@ -1,0 +1,8 @@
+# Ignore generated files and directories
+__pycache__, *.pyc, __init__.pyo, .DS_Store, thumbs.db
+# Ignore Docker-related files and folders
+Dockerfile, docker-compose*.*
+# Ignore temporary files created by Streamlit
+_.streamlit_cache_, _appstate.pkl
+# Ignore log files generated during development or testing
+*.log, *.txt~

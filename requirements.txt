@@ -1,0 +1,8 @@
+streamlit
+streamlit-folium[plotly] # For interactive geo maps with Folium library and Plotly integration
+geopandas # Geospatial data analysis library for Python
+pandas # Data manipulation and analysis toolkit
+requests # HTTP request library to fetch the geojson_data file
+docker-compose[experimental] # For managing Docker containers in development environment
+python-dotenv # Loads configuration variables from a .env file into your application
+pytest # Testing framework for Python
