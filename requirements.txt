@@ -1,0 +1,4 @@
+gfpgan
+opencv-python
+streamlit
+docker
